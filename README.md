@@ -56,9 +56,28 @@ Welcome to the **Git Basics Exercise**. Follow the steps below to practice versi
 
 10. **Recover:** Undo the full reset done in **Exercise 9** ( Hint it has something to do with `reflog`).
 
-11. **Amend:** Make a new commit but make a typo in the commit message. After that create a new commit with correct spelling and amend it to the previous one.
+11. **Amend:** Make a new commit but, make a typo in the commit message. After that create a new commit with correct spelling and amend it to the previous one.
 
-12. **Partial Staging :** Make a change to an endpoint and create a new HELLO.txt file. Commit these two changes with two different commits using `git add -p`. 
+12. **Partial Staging:** Make a change to an endpoint and create a new HELLO.txt file. Commit these two changes with two different commits using `git add -p`. 
 
-13. **Partial Staging 2.0:** Do two changes to whatever endpoint you like. Make sure its *two different* endpoints. Using the `git add -p` with the correct **option**, commit the changes that are in the same file, with different commits. **One** for each change.
+13. **Partial Staging 2.0:** Do two changes to whatever endpoint you like. Make sure its *two different* endpoints. Using the `git add -p` with the correct **option**, commit the changes that are in the same file, with different commits. 
+**One** for each change.
 
+### Advanced Branching
+
+14. **Rebase:** 
+   * Create a new branch named `feat3`. 
+   * Create a new endpoint and stash your changes. 
+   * Switch to main, create and commit another endpoint.
+   * Switch to `feat3`, unstash your changes and commit.
+   * Rebase `feat3` to main.
+
+15. **Squash commits:**
+   * Change the contents of the HELLO.txt file and make three different commits.
+   * Using interactive rebase squash the *half commits* and create a commit with the message "Added content to HELLO.txt".
+
+16. **Cherry-Picking:**
+    * Create and switch to a branch named `experimental`.
+    * Commit 1: Add a `/health` endpoint that returns `{"status": "ok"}`.
+    * Commit 2: Add a `/broken` endpoint that raises an error.
+    * Switch back to main. Cherry pick **only** the `/health` endpoint commit into main, leaving the broken commit behind. * Delete `experimental`.
