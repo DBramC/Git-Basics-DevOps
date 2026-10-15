@@ -14,6 +14,7 @@ Welcome to the **Git Basics Exercise**. Follow the steps below to practice versi
      py -3.13 -m uvicorn main:app --reload
      ```
 
+3. **IDE:** Use the terminal of VSCode or configure git config to use the text editor of your choice 
 ---
 
 ## Exercises
@@ -61,4 +62,3 @@ Welcome to the **Git Basics Exercise**. Follow the steps below to practice versi
 
 13. **Partial Staging 2.0:** Do two changes to whatever endpoint you like. Make sure its *two different* endpoints. Using the `git add -p` with the correct **option**, commit the changes that are in the same file, with different commits. **One** for each change.
 
-AMMENDED
