@@ -52,3 +52,13 @@ Welcome to the **Git Basics Exercise**. Follow the steps below to practice versi
 8. **Revert:** On `main`, create and commit a new endpoint. Immediately **revert** this exact commit.
 
 9. **Full Reset:** Reset the repository history back to the commit of **Exercise 2** (.gitignore).
+
+10. **Recover:** Undo the full reset done in **Exercise 9** ( Hint it has something to do with `reflog`).
+
+11. **Amend:** Make a new commit but make a typo in the commit message. After that create a new commit with correct spelling and amend it to the previous one.
+
+12. **Partial Staging :** Make a change to an endpoint and create a new HELLO.txt file. Commit these two changes with two different commits using `git add -p`. 
+
+13. **Partial Staging 2.0:** Do two changes to whatever endpoint you like. Make sure its *two different* endpoints. Using the `git add -p` with the correct **option**, commit the changes that are in the same file, with different commits. **One** for each change.
+
+AMMENDED
