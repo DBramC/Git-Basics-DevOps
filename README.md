@@ -65,19 +65,19 @@ Welcome to the **Git Basics Exercise**. Follow the steps below to practice versi
 
 ### Advanced Branching
 
-14. **Rebase:** 
-   * Create a new branch named `feat3`. 
-   * Create a new endpoint and stash your changes. 
-   * Switch to main, create and commit another endpoint.
-   * Switch to `feat3`, unstash your changes and commit.
-   * Rebase `feat3` to main.
+14. **Rebase:**
+     * Create a new branch named `feat3`. 
+     * Create a new endpoint and stash your changes. 
+     * Switch to main, create and commit another endpoint.
+     * Switch to `feat3`, unstash your changes and commit.
+     * Rebase `feat3` to main.
 
 15. **Squash commits:**
-   * Change the contents of the HELLO.txt file and make three different commits.
-   * Using interactive rebase squash the *half commits* and create a commit with the message "Added content to HELLO.txt".
+     * Change the contents of the HELLO.txt file and make three different commits.
+     * Using interactive rebase squash the *half commits* and create a commit with the message "Added content to HELLO.txt".
 
 16. **Cherry-Picking:**
-    * Create and switch to a branch named `experimental`.
-    * Commit 1: Add a `/health` endpoint that returns `{"status": "ok"}`.
-    * Commit 2: Add a `/broken` endpoint that raises an error.
-    * Switch back to main. Cherry pick **only** the `/health` endpoint commit into main, leaving the broken commit behind. * Delete `experimental`.
+     * Create and switch to a branch named `experimental`.
+     * Commit 1: Add a `/health` endpoint that returns `{"status": "ok"}`.
+     * Commit 2: Add a `/broken` endpoint that raises an error.
+     * Switch back to main. Cherry pick **only** the `/health` endpoint commit into main, leaving the broken commit behind. * Delete `experimental`.
