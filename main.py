@@ -9,10 +9,10 @@ def root():
 
 
 @app.get("/hello")
-def root():
+def hello():
     return {"Hello"}
 
 
 @app.get("/world")
-def root():
+def world():
     return {"World"}
