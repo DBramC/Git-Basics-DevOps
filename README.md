@@ -52,7 +52,7 @@ Welcome to the **Git Basics Exercise**. Follow the steps below to practice versi
 
 8. **Revert:** On `main`, create and commit a new endpoint. Immediately **revert** this exact commit.
 
-9. **Full Reset:** Reset the repository history back to the commit of **Exercise 2** (.gitignore).
+9. **Full Reset:** Reset (-- hard) the repository history back to the commit of **Exercise 2** (.gitignore).
 
 10. **Recover:** Undo the full reset done in **Exercise 9** ( Hint it has something to do with `reflog`).
 
